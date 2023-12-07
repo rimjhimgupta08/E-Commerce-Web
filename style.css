@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=PT+Sans&family=Roboto:wght@300;400&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'M PLUS 1p', sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'PT Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+}
+.container{
+      width: 100%;
+      height: 100%;
+      /* background-color: aqua; */
+}
+
+.navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* padding: 30px; */
+      width: 100%;
+      position: fixed;
+      height: 60px;
+      top: 0;
+      background-color: rgb(40, 39, 39);
+}
+.logo h2{
+      color: white;
+}
+span{
+      color: orangered;
+}
+.navbar .list-menu li {
+      display: inline;
+      margin-right: 20px;
+      font-size: 1.1rem;
+      list-style: none;
+}
+.navbar .list-menu li a{
+      text-decoration: none;
+      color: white;
+      font-weight: 800;
+}
+.navbar .icon{
+      font-size: 1.4rem;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      display: none;
+}
+#close{
+      font-size: 1.4rem;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      display: none;
+}
+.navbar #cart{
+      font-size: 1.4rem;
+      color: white;
+      cursor: pointer;
+}
+/* hero section */
+main .hero{
+      display: flex;
+      margin-top: 100px;
+      justify-content: space-evenly;
+      /* flex-wrap: wrap; */
+}
+.hero .left{
+      width: 30%;
+      margin-left: 10%;
+      margin-top: 5%;
+}
+.hero .left h2{
+      font-size: 1.3rem;
+      font-style: italic;
+      margin-bottom: 10px;
+}
+.left h1{
+      margin-bottom: 10px;
+}
+
+.left  a{
+      margin: 20px;
+      width: 90px;
+      /* height: 40px; */
+      background-color: orangered;
+      border-radius: 20px;
+      border: none;
+      padding: 12px;
+      cursor: pointer;
+      transition: all 2s ease-in-out;
+      /* position: absolute; */
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+
+}
+
+.list i{
+      font-size: 1.2rem;
+      margin-left: 50px;
+      color: rgb(50, 50, 50);
+      cursor: pointer;
+}
+
+.left  a:hover{
+      color: black;
+      border: 2px solid black;
+      background: transparent;
+}
+
+.hero .right {
+      width: 30%;
+
+}
+.hero .right img {
+      width: 290px;
+      margin-bottom: 20px;
+}
+
+/* product list start */
+
+.product-list{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      width: 100%;
+      /* overflow-x: hidden; */
+      
+}
+.product-list .list{
+      width: 300px;
+      height: 470px;
+      background-color: rgb(249, 238, 238);
+      border-radius: 10px;
+      margin: 30px;
+      box-shadow: 10px 10px 5px 5px rgb(219, 218, 218);
+      transition: all 1s ease-in-out;
+      overflow: hidden;
+      margin-top: 80px;
+}
+.product-list .list:hover{
+      transform: scale(1.1);
+}
+.product-list .list img{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 250px;
+      height: 350px;
+      margin-left: 25px;
+      margin-top: 10px;
+}
+.list h2{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.3rem;
+}
+.list button{
+      width: 90px;
+      background-color: orangered;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      height: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-align: center;
+      margin-left: 90px;
+      margin-top: 10px;
+}
+/* women container start */
+#women-container{
+      margin-top: 100px;
+}
+
+#women-container h1, h2, h3{
+      text-align: center;
+}
+#women-container h3{
+      margin-top: 10px;
+}
+#women-container h1{
+      margin-top: 50px;
+      color: orangered;
+}
+#women-container input{
+      width: 300px;
+      height: 40px;
+      margin-left: 35%;
+      margin-top: 40px;
+      text-align: center;
+      font-size: 1.1rem;
+      border-radius: 20px;
+      outline: none;
+      border: 1px solid rgb(179, 177, 177);
+}
+#women-container  button{
+      height: 40px;
+      margin-left: -20px;
+      width: 100px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      outline: none;
+      border: 1px solid rgb(179, 177, 177);
+      background-color: orangered;
+      color: white;
+      cursor: pointer;
+      font-size: 1.1rem;
+} 
+#women-container .box button{
+      height: 35px;
+      margin-left: 20px;
+      width: 100px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      outline: none;
+      border: 1px solid rgb(179, 177, 177);
+      background-color: orangered;
+      color: white;
+      cursor: pointer;
+      font-size: 1.1rem;
+}    
+.women-collection{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 80px;
+}
+.women-collection .box{
+      width: 300px;
+      height: 470px;
+      background-color: rgb(249, 238, 238);
+      border-radius: 10px;
+      margin: 30px;
+      box-shadow: 10px 10px 5px 5px rgb(219, 218, 218);
+      transition: all 1s ease-in-out;
+      overflow: hidden;
+}
+.women-collection .box img{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 250px;
+      height: 350px;
+      margin-left: 25px;
+      margin-top: 10px;
+}
+.box h2{
+      margin-top: 20px;
+}
+.women-collection .box button{
+      width: 90px;
+      margin-left: 170px;
+      margin-top: 10px;
+      border-radius: 20px;
+      font-size: 1.1rem;
+      cursor: pointer;
+}
+
+
+
+
+/* footer section Start Here... */ 
+.footer-container{
+      width: 100%;
+      height: 200px;
+      background-color: rgb(44, 43, 43);
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 20px;
+      flex-wrap: wrap;
+      color: white;
+      flex-wrap: wrap;
+}
+.footer-container .text{
+      margin-right: 20px;
+      line-height: 1.3rem;
+      margin-top: 30px;
+}
+.text h2{
+      margin-bottom: 10px;
+}
+
+.detailCard{
+      width: 80%;
+      position: absolute;
+      top: 50px;
+      left: 80px;
+      display: flex;
+      gap: 70px;
+}
+.detailCard img{
+      width: 300px;
+      height: 400px;
+}
+.detailCard div{
+      top: 90px;
+      position: relative;
+}
+.detailCard h1{
+      color: orangered;
+}
+.detailCard h2{
+      margin-top: 10px;
+      margin-bottom: 5px;
+}
+.detailCard p{
+      line-height: 20px;
+}
+.detailCard div a{
+      padding: 5px 10px;
+      background-color: orangered;
+      color: white;
+      width: 60px;
+      height: 40px;
+      position: relative;
+      top: 20px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 10px;
+}
